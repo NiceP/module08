@@ -91,10 +91,10 @@
     }
     
     .icon-botle {
-      order: 2;
+      order: 3;
     }
     .icon-cup {
-      order:0;
+      order: 0;
       margin-right: 0;
     }
     .icon-air-plane {
@@ -142,4 +142,4 @@
       width: 220px;
       margin: 0;
     }
-  }
+  
