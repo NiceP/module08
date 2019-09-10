@@ -62,44 +62,32 @@ body {
   width: 152px;
   display: flex;
   justify-content: space-between;
+  list-style: none;
+  line-height: 14px;
+}
+.menu-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #222222;
+}
+.menu-item:hover .menu-link {
+  
+  border-radius: 40px;
+  border: 2px solid #fff;
+  padding: 10px 16px;
 }
 
 button {
   outline: none;
   cursor: pointer;
-}
-.fade {
-  transition: background-color 1000ms;
-}
-.fade:hover {
-  background-color: #ff6666;
 
 }
-.fade-log {
-  transition: background-color 1000ms;
-}
-.fade-log:hover {
-  background-color: #ff6666;
-  border-radius: 20px;
-  border: 2px solid #ffffff;
 
-}
-.header-nav-button {
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0);
-  font-size: 14px;
-  height: 36px;
-}
-.login-button {
-  border: none;
-  padding: 0;
-}
 
-.sign-button {
-  width: 90px;
-  border: 2px solid #ffffff;
-  border-radius: 20px;
-}
+
 .header-text-title {
   font-size: 30px;
   letter-spacing: -1px;
@@ -141,17 +129,18 @@ main {
 }
 
 .partner-item {
-  margin: 0 auto;
-  width: 235px;
   position: relative;
+  width: 122px;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
 .icon::after {
   width: 33px;
   height: 33px;
   position: absolute;
-  left: 80px;
-  top: 100px;
+  left: 92px;
+  top: 80px;
   content: '';
   border: 4px solid #ffffff;
   border-radius: 50%;
