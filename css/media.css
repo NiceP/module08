@@ -1,145 +1,147 @@
 @media screen and (max-height: 767px) {
 
-    .header-nav {
-        margin-bottom: 23px;
-      }
-    .header-nav-menu {
-      margin: 0 auto;
-      margin-bottom: 110px;
+  .header-nav {
+      margin-bottom: 23px;
     }
-    
-    .header-text-title {
-      margin: 0px 0px 13px;
-    }
-    .header-text-subtitle {
-      width: 220px;
-      margin: 0 auto;
-      margin-bottom: 14px;
-    }
-    main {
-      padding: 67px 0px 57px;
-    }
-  
-    .partner-list {
-      margin: 0;
-      margin-bottom: 29px;
-    }
-    .partner-item {
-      margin-bottom: 25px;
-    }
-    .partner-item:last-child {
-      margin-bottom: 0;
-    }
+  .header-nav-menu {
+    margin: 0 auto;
+    margin-bottom: 110px;
   }
   
-  @media screen and (min-width: 768px) {
-    .main-content {
-      padding: 67px 0px 57px;
-    }
-    .header-c-block {
-      padding-top: 37px;
-    }
-    .header-text-title {
-      font-size: 51px;
-      line-height: 65px;
-      margin: 0px 0px 21px;
-    }
-    .header-text-subtitle {
-      width: 420px;
-      font-size: 24px;
-      margin: 0 auto;
-      margin-bottom: 34px;
-    }
-    .header {
-      background: url(../img/tablet-banner.jpg) no-repeat center;
-      background-size: cover;
-      min-height: 700px;
-    }
-    .header-nav-menu {
-      order: 1;
-      margin: 0;
-    }
-    .header-nav {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 auto;
-      margin-bottom: 140px;
-      width: 670PX;
-    }
-    .partner-title {
-      margin-bottom: 33px;
-    }
-    .partner-list {
-      display: flex;
-      flex-wrap: wrap;
-      width: 492px;
-      margin: 0 auto;
-      margin-bottom: 38px;
-    }
-    .partner-item {
-      margin: 0px 20px 55px 0; 
-    }
-    .partner-item-description {
-      padding: 0px 10px;
-    }
-  
-    .partner-item:nth-child(2) {
-      margin-bottom: 0px;
-    }
-    .partner-item:nth-child(4) {
-      margin-bottom: 0px;
-    }
-    
-    .icon-botle {
-      order: 3;
-    }
-    .icon-cup {
-      order: 0;
-      margin-right: 0;
-    }
-    .icon-air-plane {
-      margin: 0;
-      order: 4;
-    }
-    .header-text-button {
-      width: 225px;
-    }
-    .partner-button {
-      width: 192px;
-    }
+  .header-text-title {
+    margin: 0px 0px 13px;
   }
-  @media screen and (min-width: 960px) {
-    .header {
-      /* background: url(../img/full-banner.png) no-repeat center; */
-      background-size: cover;
-      min-height: 700px;
-      background-image: linear-gradient(
-        to right,
-        rgba(239, 59, 54, 0.3),
-        rgba(255, 255, 255, 0.3)
-      ),
-      linear-gradient(to top, rgba(0, 210, 255, 0.3), rgba(145, 140, 170, 0.3)),
-      url('../img/full-banner.png');
-    margin-bottom: 72px;
-    }
-    .header-nav {
-      width: 940px;
-    }
-    .header-text-button {
-      width: 226px;
-    }
-    .partner-title {
-      padding-bottom: 39px;
-    }
-    .partner-list {
-      width: 940px;
-      justify-content: space-between;
-    }
-    .partner-button {
-      margin-bottom: 70px;
-    }
-    .partner-item {
-      width: 220px;
-      margin: 0;
-    }
+  .header-text-subtitle {
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+  }
+  main {
+    padding: 67px 0px 57px;
+  }
+
+  .partner-list {
+    margin: 0;
+    margin-bottom: 29px;
+  }
+  .partner-item {
+    margin-bottom: 25px;
+  }
+  .partner-item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-content {
+    padding: 67px 0px 57px;
+  }
+  .header-c-block {
+    padding-top: 37px;
+  }
+  .header-text-title {
+    font-size: 51px;
+    line-height: 65px;
+    margin: 0px 0px 21px;
+  }
+  .header-text-subtitle {
+    width: 420px;
+    font-size: 24px;
+    margin: 0 auto;
+    margin-bottom: 34px;
+  }
+  .header {
+    background: url(../img/tablet-banner.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 700px;
+  }
+  .header-nav-menu {
+    order: 1;
+    margin: 0;
+  }
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 140px;
+    width: 670px;
+  }
+  .partner-title {
+    margin-bottom: 33px;
+  }
+  .partner-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 30px;;
+  }
+  .partner-item {
+    margin: 14px;
+    width: 236px;
+  }
+
+  .partner-item-description {
+    padding: 0px 10px;
+  }
+
+  .partner-item:nth-child(2) {
+    margin-bottom: 0px;
+  }
+  .partner-item:nth-child(4) {
+    margin-bottom: 0px;
+  }
   
+  .icon-botle {
+    order: 3;
+  }
+  .icon-cup {
+    order: 0;
+    margin-right: 0;
+  }
+  .icon-air-plane {
+    margin: 0;
+    order: 4;
+  }
+  .header-text-button {
+    width: 225px;
+  }
+  .partner-button {
+    width: 192px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .header {
+    /* background: url(../img/full-banner.png) no-repeat center; */
+    background-size: cover;
+    min-height: 700px;
+    background-image: linear-gradient(
+      to right,
+      rgba(239, 59, 54, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    linear-gradient(to top, rgba(0, 210, 255, 0.3), rgba(145, 140, 170, 0.3)),
+    url('../img/full-banner.png');
+  margin-bottom: 72px;
+  }
+  .header-nav {
+    width: 940px;
+  }
+  .header-text-button {
+    width: 226px;
+  }
+  .partner-title {
+    padding-bottom: 39px;
+  }
+  .partner-list {
+    width: 940px;
+    justify-content: space-between;
+  }
+  .partner-button {
+    margin-bottom: 70px;
+  }
+  .partner-item {
+    width: 220px;
+    margin: 0;
+  }
