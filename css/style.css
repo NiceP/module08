@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+ 
 }
 * {
     margin: 0;
@@ -24,6 +25,7 @@ img {
     min-width: 320px;
     margin: 0 auto;
     padding: 0px 10px;
+
     
 }
 
@@ -32,6 +34,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 16.8px;
+  overflow-x: hidden;
   
 }
 
