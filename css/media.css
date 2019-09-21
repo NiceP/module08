@@ -81,33 +81,36 @@
       .partner {
         text-align: center;
         
+        
       }
       .partner-list {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        /* align-items: center; */
-        justify-content: space-between;
-        width: 490px;
+        flex-wrap: wrap;   
+        justify-content: space-between;     
         margin: 0 auto;
-        
+        max-width: 490px; 
+        margin: 0 auto; 
+    
       }
-      
+
+    
       .icon-botle {
         order: 3;
       }
       .icon-cup {
         order: 2;
+      
       }
       .icon-air-plane {
         order: 4;
+       
       }
-    
+
 }
 
-  @media (min-width: 940px) {
+  @media (min-width: 939px) {
     .container {
-      min-width: 940px;
+      min-width: 939px;
     }
 
     .header {
@@ -128,7 +131,8 @@
     
     .partner-list {
       justify-content: space-between;
-      width: 940px;
+      max-width: 939px;
       margin: 0 auto;
   }
+  
 }

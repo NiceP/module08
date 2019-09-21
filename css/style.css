@@ -94,6 +94,7 @@ body {
   text-decoration: none;
   padding: 10px 14px;
   color: #ffffff;
+  border: 2px solid transparent;
   
   
 }
@@ -133,13 +134,13 @@ button {
 .header-text-button {
   display: block;
   padding: 14px 48px;
+ 
   border: none;
   border-radius: 40px;
   background-color: #ff6666;
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
-  
   margin: 0 auto;
 }
 
@@ -155,12 +156,11 @@ button {
 .partner-list {
   list-style: none;
   margin-bottom: 50px;
-  
 }
 .partner-item {
   position: relative;
   /* background-color: blue; */
-  width: 204px;
+  max-width: 204px;
   margin-bottom: 20px;
   text-align: center;
 
@@ -223,7 +223,8 @@ button {
 }
 
 .partner-button {
-  width: 280px;
+  max-width: 280px;
+  padding: 10px;
   height: 40px;
   border-radius: 20px;
   border: 2px solid #ff4e50;
