@@ -80,8 +80,7 @@
       }
       .partner {
         text-align: center;
-        
-        
+          
       }
       .partner-list {
         display: flex;
@@ -92,7 +91,6 @@
         
     
       }
-
     
       .icon-botle {
         order: 3;
