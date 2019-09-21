@@ -18,6 +18,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
     
    }
 
@@ -28,13 +29,16 @@ img {
 
     
 }
+html, body {
+  overflow-x: hidden;
+}
 
 body {
   font-family: Montserrat;
   font-weight: 700;
   font-size: 14px;
   line-height: 16.8px;
-  overflow-x: hidden;
+  
   
 }
 
